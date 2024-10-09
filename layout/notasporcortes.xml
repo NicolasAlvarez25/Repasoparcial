@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Campo para el código de la materia -->
+        <EditText
+            android:id="@+id/etCodigoMateria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Código de la Materia"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="@android:color/white"/>
+
+        <!-- Campo para la Nota del Corte 1 -->
+        <EditText
+            android:id="@+id/etCorte1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota Corte 1"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="@android:color/white"/>
+
+        <!-- Campo para la Nota del Corte 2 -->
+        <EditText
+            android:id="@+id/etCorte2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota Corte 2"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="@android:color/white"/>
+
+        <!-- Campo para la Nota del Corte 3 -->
+        <EditText
+            android:id="@+id/etCorte3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota Corte 3"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="@android:color/white"/>
+
+        <!-- Botón para guardar las notas -->
+        <Button
+            android:id="@+id/btnGuardarNotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Notas"
+            android:layout_marginTop="24dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</ScrollView>
